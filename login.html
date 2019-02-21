@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title></title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://at.alicdn.com/t/font_1040723_f1h2a6qmr65.css">
+<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<div id="header_cont">
+		<div id="logo">
+			<a href="#" id="home">化妆品品牌排行榜大全网站聚美优品</a>
+			<div class="header_logo_box">
+				<a href="#"><img src="img/logo03.png" class="top_link lightning"></a>
+				<a href="#"><img src="img/logo02.png" class="top_link gild"></a>
+				<a href="#"><img src="img/logo01.png" class="top_link credit"></a>
+			</div>
+		</div>
+	</div>
+	<div class="sign">
+		<div class="loginWrap loginWrapVerify">
+			<div class="loginBoardWrap">
+				<img src="img/loginBan.png" class="loginImg">
+				<div class="loginBord">
+					<div class="loginTit">
+						<div class="loginTop">
+							还没有聚美账号？
+							<a href="reg.html">30秒注册</a>
+						</div>
+						<h1><b>登录聚美</b></h1>
+					</div>
+					<div class="radio_wrapper">
+						<span id="phone_login">
+							<input type="radio" name="method" id="radio_dynamic" checked>
+							<label for="radio_dynamic" style="vertical-align: middle;">手机动态密码登录</label>
+						</span>
+						<span id="normal_login">
+							<input type="radio" name="method" id="radio_normal">
+							<label for="radio_normal" style="vertical-align: middle;">普通登录</label>
+						</span>
+					</div>
+					<form action="" id="login-dynamic-form">
+						<input type="text" style="display: none;" name="userNum">
+						<input type="password" style="display: none;" name="passNum">
+						<div class="textbox_ui user">
+							<div class="input_box">
+								<input class="form-control input-lg pass_00" type="text" placeholder="已注册的手机号码" style="font-size: 12px;" id="dynamic_mobile" autofocus="" autocomplete="off" value="">
+								<div class="focus_text a0" style="opacity: 0">请输入11位手机号码</div>
+							</div>
+							<div> 
+								<input class="form-control input-lg pass_01" type="password" placeholder="动态密码" style="font-size: 12px;">
+								<a href="#" class="phonecode"><b>获取手机动态密码</b></a>
+							</div>
+							<div class="focus_telphone a1" style="opacity: 0;">请点击手机获取动态密码</div>
+							<p class="check_login">
+								<input type="checkbox" checked><label for="auto_login" style="vertical-align: middle;">&nbsp;自动登录</label>
+							</p>
+							<button type="submit" class="btn btn-primary btn-lg btn-block" id="btn" style="background: #F8296D; border: 0;outline: none;width: 100%">登录</button>
+						</div>
+					</form>
+					<form action="" id="login-user-form" method="post" style="display:none;">
+						<input type="text" style="display: none;" name="userNum">
+						<input type="password" style="display: none;" name="passNum">
+						<div class="textbox_ui user">
+							<div class="input_box">
+								<div class="input_box_01">
+									<input class="form-control input-lg pass_02" type="text" placeholder="已验证手机/邮箱/用户名" id="userPhone" name="userPhone" autofocus="" autocomplete="off" value="" style="font-size: 12px;">
+									<div class="focus_text b0" style="opacity: 0;">	
+										请输入登录名，登录名可能是您的手机号、邮箱或用户名
+									</div>
+								</div>
+								<div class="input_box_01">
+									<input class="form-control input-lg pass_03" id="passTxt" name="passTxt" type="password" placeholder="密码" style="font-size: 12px;">
+									<div class="focus_telphone b1" style="opacity: 0;">请输入您的密码，您的密码可能为字母、数字或符号的组合</div>
+								</div>
+							</div>
+							<button type="button" class="btn btn-primary btn-lg btn-block" id="btn1" style="background: #F8296D; border: 0;outline: none;width: 100%">登录</button>
+						</div>
+					</form>
+					<div class="iconAcc">
+						<div>你也可以使用以下账号登录</div>
+						<p>
+							<a href="/i/extconnect/?site_name=cb_qq&amp;redirect=http%3A%2F%2Fbj.jumei.com%2F" class="a1" title="QQ">QQ</a>
+							<a href="/i/extconnect/?site_name=alipay&amp;redirect=http%3A%2F%2Fbj.jumei.com%2F" class="a2" title="支付宝">支付宝</a>
+							<a href="/i/extconnect/?site_name=sina_weibo&amp;redirect=http%3A%2F%2Fbj.jumei.com%2F" class="a3" title="新浪微博">新浪微博</a>
+							<a href="/i/extconnect/?referer=360tuan_dh&amp;site_name=site_360&amp;redirect=http%3A%2F%2Fbj.jumei.com%2F" class="a4" title="360">360</a>
+							<a href="/i/extconnect/?site_name=baidu&amp;redirect=http%3A%2F%2Fbj.jumei.com%2F" class="a5" title="百度">百度</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer_copyright">
+		<div class="footer_con">
+			<p class="footer_copy_con">
+				COPYRIGHT © 2010-2018 北京创锐文化传媒有限公司 JUMEI.COM 保留一切权利。
+            客服热线：400-123-8888
+            <br/>
+            京公网安备 11010102001226 |
+            <a href="http://www.miibeian.gov.cn" target="_blank" rel="nofollow">京ICP证111033号</a> | 
+            <a href="http://f0.jmstatic.com/btstatic/pc_static/food_pic.jpg">食品经营许可证</a> |
+            <a href="http://mp5.jmstatic.com/mobile/pc/chuangrui.jpg" target="_blank" rel="nofollow">营业执照</a> |
+            <a href="http://mp5.jmstatic.com/mobile/pc/ICP.jpg" target="_blank" rel="nofollow">ICP许可证</a> |
+            <a href="http://mp5.jmstatic.com/mobile/pc/chuban.jpg" target="_blank" rel="nofollow">出版物经营许可证</a>
+			</p>
+			<p>
+				<a href="#" class="footer_copy_logo logo01"></a>
+				<a href="#" class="footer_copy_logo logo02"></a>
+				<a href="#" class="footer_copy_logo logo03"></a>
+				<a href="#" class="footer_copy_logo logo04"></a>
+				<a href="#" class="footer_copy_logo logo05"></a>
+				<a href="#" class="footer_copy_logo logo06"></a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
+<script src="js/jQuery-1.8.3.min.js"></script>
+<script src="js/cookie.js"></script>
+<script>
+	$("#radio_normal").on("click",function(){
+		$("#login-dynamic-form").css({"display":"none"});
+		$("#login-user-form").css({"display":"block"});
+	})
+	$("#radio_dynamic").on("click",function(){
+		$("#login-dynamic-form").css({"display":"block"});
+		$("#login-user-form").css({"display":"none"});
+	})
+	$(".pass_00").on("focus",function(){
+		$(".a0").css({"opacity":"1"});
+	});
+	$(".pass_00").blur(function(){
+		$(".a0").css({"opacity":"0"});
+	});
+	$(".pass_01").on("focus",function(){
+		$(".a1").css({"opacity":"1"});
+	});
+	$(".pass_01").blur(function(){
+		$(".a1").css({"opacity":"0"});
+	});
+	$(".pass_02").on("focus",function(){
+		$(".b0").css({"opacity":"1"});
+	});
+	$(".pass_02").blur(function(){
+		$(".b0").css({"opacity":"0"});
+	});
+	$(".pass_03").on("focus",function(){
+		$(".b1").css({"opacity":"1"});
+	});
+	$(".pass_03").blur(function(){
+		$(".b1").css({"opacity":"0"});
+	});
+
+// window.onload = function(){
+	my$("#btn1").onclick = function(){
+		let xhr = new XMLHttpRequest();
+		xhr.open("post","login.php",true);
+		xhr.onreadystatechange = function(){
+			if(xhr.readyState==4 && xhr.status==200){
+				console.log(xhr.responseText);
+				if(xhr.responseText=="1"){
+					saveCookie("userPhone",my$("#userPhone").value,7);
+					saveCookie("passTxt",my$("#passTxt").value,7); 
+					location.href = "index.html";  
+				}else{
+			        alert("没有该用户名哦");     
+			        // ???	
+				}
+			}
+		}
+		xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded")
+		let str = `userPhone=${my$("#userPhone").value}&passTxt=${my$("#passTxt").value}`;
+		console.log(str);
+		xhr.send(str); 
+	}
+// }
+	function my$(str){
+		if(str.charAt(0)=="#"){
+			return document.getElementById(str.substring(1));
+		}else if(str.charAt(0)=="."){
+			return document.getElementsByClassName(str.substring(1));
+		}else{
+			return document.getElementsByTagName(str);
+		}
+	}
+</script>

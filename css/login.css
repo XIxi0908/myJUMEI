@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+body{
+	font: 12px/1.5 arial,'Hiragino Sans GB','\5FAE\8F6F\96C5\9ED1',sans-serif; 
+	background: #fff;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: 400;
+}
+a {
+    color: #ed145b;
+    text-decoration: none;
+}
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+label{
+	font-weight: 100;
+	color: black;
+}
+
+#header_cont{
+	min-width: 960px;
+	background: #fff;
+}
+#logo{
+	height: 85px;
+	width: 960px;
+    margin: 0 auto;
+}
+#logo #home {
+    width: 360px;
+    height: 85px;
+    overflow: hidden;
+    float: left;
+    font-size: 0;
+    line-height: 0;
+    background: url(https://f0.jmstatic.com/static_passport/dist/v1.0.28403/images/logo_new_v1.jpg) no-repeat top left;
+}
+#logo .header_logo_box {
+    display: inline-block;
+    padding-top: 35px;
+    float: right;
+}
+#logo .top_link {
+    width: 110px;
+    height: 35px;
+    overflow: hidden;
+    margin-right: 24px;
+    float: right;
+}
+#logo .header_logo_box .gild{
+	width: 150px;
+    height: 35px;
+}
+.sign {
+    line-height: 1.5;
+}
+.loginWrap {
+    margin: 100px auto;
+    line-height: 1.5;
+    width: 965px;
+    margin-top: 50px;
+}
+.loginWrapVerify{
+	height: 417px;
+	margin-bottom: 50px;
+}
+.loginBoardWrap {
+    width: 960px;
+    position: relative;
+}
+.loginImg {
+    width: 580px;
+    height: 350px;
+    position: absolute;
+}
+.loginWrap .loginBord {
+    -webkit-box-shadow: 5px 5px 18px gray;
+    box-shadow: 5px 5px 18px gray;
+    background: rgba(255,255,255,.85);
+    border: 1px solid #ededed;
+    position: absolute;
+    min-height: 400px;
+    padding: 0 23px;
+    width: 310px;
+    color: #333;
+    top: -60px;
+    right: 0;
+}
+.loginWrap .loginBord{
+	width: 360px;
+	top: -10px;
+	border: 0;
+}
+.loginBord .loginTit {
+    margin-bottom: 15px;
+     line-height: 60px; 
+    *zoom: 1;
+}
+.loginTit .loginTop {
+    color: #969696;
+    float: right;
+}
+.loginTit h1 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #e31256;
+    float: left;
+}
+.sign h1 {
+    font-family: "Microsoft YaHei","微软雅黑","黑体";
+}
+.radio_wrapper{
+	height: 30px;
+	float: left;
+	margin-bottom: 10px;
+}	
+.radio_wrapper span {
+    padding-right: 30px;
+}
+.user .input-lg{
+	height: 40px;
+}
+.pass_01{	
+	width: 103px;
+	float: left;
+}
+.phonecode {
+    width: 130px;
+    height: 40px;
+}
+.phonecode {
+    background: #fcfcfc;
+    background: -webkit-gradient(linear,left top,left bottom,from(#fcfcfc),to(#f2f2f2));
+    background: -webkit-linear-gradient(top,#fcfcfc,#f2f2f2);
+    background: -moz-linear-gradient(top,#fcfcfc,#f2f2f2);
+    background: -o-linear-gradient(top,#fcfcfc,#f2f2f2);
+    background: linear-gradient(to bottom,#fcfcfc,#f2f2f2);
+    border: 1px solid #d9d9d9;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 8px;
+    display: inline-block;
+    line-height: 41px;
+    height: 41px;
+    font-weight: 700;
+    color: #666;
+    margin-left: 10px;
+    text-align: center;
+    width: 140px;
+}
+.check_login{
+	margin-top: 20px;
+}
+.iconAccout div {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.iconAccout p {
+    overflow: hidden;
+    zoom: 1;
+    margin-bottom: 15px;
+}
+#login-user-form .textbox_ui{
+	margin-bottom: 26px;
+}
+.input_box_01{
+	margin-bottom: 10px;
+}
+.iconAcc div{
+	margin-top: 15px;
+}
+.textbox_ui .focus_text,.textbox_ui .focus_telphone {
+    word-break: keep-all;
+    white-space: nowrap;
+    margin-top: 4px;
+    color: #999;
+    top: 100%;
+    left: 0;
+}
+/*footer*/
+.footer_copyright {
+    line-height: 20px;
+    padding-bottom: 80px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.footer_con{
+	min-width: 1500px;
+}
+.footer_center a {
+    color: #fff;
+    padding-right: 12px;
+    height: 48px;
+    display: inline-block;
+}
+
+.footer_copyright .footer_copy_con {
+    padding: 14px 0 18px;
+    line-height: 23px;
+    color: black;
+}
+.footer_copyright a {
+    color: black;
+}
+.footer_copyright .footer_copy_logo {
+    width: 126px;
+    height: 50px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 8px;
+    background: url(http://a4.jmstatic.com/a6195c982dae0cec/footer_btm_icon.png) no-repeat;
+}
+.footer_copyright .logo02 {
+    background-position: -126px 0;
+}
+.footer_copyright .logo03 {
+    background-position: -252px 0;
+}
+.footer_copyright .logo01, .footer_copyright .logo03, .footer_copyright .logo04 {
+    cursor: default;
+}
+.footer_copyright .logo04 {
+    background-position: -378px 0;
+}
+.footer_copyright .logo05 {
+    background-position: -504px 0;
+}
+.footer_copyright .logo06 {
+    width: 55px;
+    height: 50px;
+    background: url(http://f0.jmstatic.com/btstatic/pc_static/bz.jpg) no-repeat;
+    display: inline-block;
+}

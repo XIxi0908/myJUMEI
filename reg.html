@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/iconfont.css">
+<link rel="stylesheet" href="css/reg.css">
+</head>
+<body>
+	<div id="header_cont">
+		<div id="logo">
+			<a href="#" id="home">化妆品品牌排行榜大全网站聚美优品</a>
+			<div class="header_logo_box">
+				<a href="#"><img src="img/logo03.png" class="top_link lightning"></a>
+				<a href="#"><img src="img/logo02.png" class="top_link gild"></a>
+				<a href="#"><img src="img/logo01.png" class="top_link credit"></a>
+			</div>
+		</div>
+	</div>
+	<div class="sign">
+		<div class="loginWrap loginWrapVerify">
+			<div class="loginBoardWrap">
+				<img src="img/regBan.png" class="loginImg">
+				<div class="loginBord">
+					<div class="loginTit">
+						<div class="loginTop">
+							已有账号
+							<a href="login.html">在此登录</a>
+						</div>
+						<h1><b>用户注册</b></h1>
+					</div>
+					<form action="" class="textbox_ui user">
+						<div class="input_box">
+							<input class="form-control input-lg pass_00" type="text" placeholder="手机号" style="font-size: 12px;" id="dynamic_mobile" name="userPhone" autofocus="" autocomplete="off" value="">
+							<div class="focus_text a1" style="opacity: 0;">请输入11位手机号码</div>
+						</div>
+						<div class="input_box">						
+							<div> 
+								<input class="form-control input-lg pass_01" type="password" placeholder="动态密码" style="font-size: 12px;">
+								<a href="#" class="phonecode"><b>获取短信效验码</b></a>
+							</div>
+							<div class="focus_telphone" style="opacity: 0">请点击手机获取动态密码</div>
+						</div>
+						<div class="input_box">
+							<input class="form-control input-lg pass_02" type="password" placeholder="密码" style="font-size: 12px;" id="passTxt"
+							name="passTxt" autofocus="" autocomplete="off" value="" >
+							<div class="focus_text a3" style="opacity: 0;">6-16个字符，建议使用字母加数字加符号组合</div>
+						</div>
+						<div class="input_box">
+							<input class="form-control input-lg pass_03" type="password" placeholder="重复密码" style="font-size: 12px;" autofocus="" autocomplete="off" value="">
+							<div class="focus_text a4" style="opacity: 0;">请再次输入密码</div>
+						</div>
+						<button type="button" class="btn btn-primary btn-lg btn-block" id="btn" style="background: #F8296D; border: 0;outline: none;width: 100%">同意协议并注册</button>
+					</form>
+					<p style="margin-top: 10px;"><a href="#">《聚美优品用户协议》</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer_copyright">
+		<div class="footer_con">
+			<p class="footer_copy_con">
+				COPYRIGHT © 2010-2018 北京创锐文化传媒有限公司 JUMEI.COM 保留一切权利。
+            客服热线：400-123-8888
+            <br/>
+            京公网安备 11010102001226 |
+            <a href="http://www.miibeian.gov.cn" target="_blank" rel="nofollow">京ICP证111033号</a> | 
+            <a href="http://f0.jmstatic.com/btstatic/pc_static/food_pic.jpg">食品经营许可证</a> |
+            <a href="http://mp5.jmstatic.com/mobile/pc/chuangrui.jpg" target="_blank" rel="nofollow">营业执照</a> |
+            <a href="http://mp5.jmstatic.com/mobile/pc/ICP.jpg" target="_blank" rel="nofollow">ICP许可证</a> |
+            <a href="http://mp5.jmstatic.com/mobile/pc/chuban.jpg" target="_blank" rel="nofollow">出版物经营许可证</a>
+			</p>
+			<p>
+				<a href="#" class="footer_copy_logo logo01"></a>
+				<a href="#" class="footer_copy_logo logo02"></a>
+				<a href="#" class="footer_copy_logo logo03"></a>
+				<a href="#" class="footer_copy_logo logo04"></a>
+				<a href="#" class="footer_copy_logo logo05"></a>
+				<a href="#" class="footer_copy_logo logo06"></a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
+<script src="js/jQuery-1.8.3.min.js"></script>
+<script src="js/reg.js"></script>
+<script>
+	$("#radio_normal").on("click",function(){
+		$("#login-dynamic-form").css({"display":"none"});
+		$("#login-user-form").css({"display":"block"});
+	})
+	$("#radio_dynamic").on("click",function(){
+		$("#login-dynamic-form").css({"display":"block"});
+		$("#login-user-form").css({"display":"none"});
+	})
+	$(".pass_00").on("focus",function(){
+		$(".a1").css({"opacity":"1"});
+	});
+	$(".pass_00").blur(function(){
+		$(".a1").css({"opacity":"0"});
+	});
+	$(".pass_01").on("focus",function(){
+		$(".focus_telphone").css({"opacity":"1"});
+	});
+	$(".pass_01").blur(function(){
+		$(".focus_telphone").css({"opacity":"0"});
+	});
+	$(".pass_02").on("focus",function(){
+		$(".a3").css({"opacity":"1"});
+	});
+	$(".pass_02").blur(function(){
+		$(".a3").css({"opacity":"0"});
+	});
+	$(".pass_03").on("focus",function(){
+		$(".a4").css({"opacity":"1"});
+	});
+	$(".pass_03").blur(function(){
+		$(".a4").css({"opacity":"0"});
+	});
+</script>
